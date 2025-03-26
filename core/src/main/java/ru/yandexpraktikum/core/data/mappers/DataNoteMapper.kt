@@ -1,8 +1,8 @@
 package ru.yandexpraktikum.core.data.mappers
 
-import jakarta.inject.Inject
 import ru.yandexpraktikum.core.data.model.NoteEntity
 import ru.yandexpraktikum.core.domain.model.Note
+import javax.inject.Inject
 
 class DataNoteMapper @Inject constructor(){
     fun mapToDomain(note: NoteEntity): Note {

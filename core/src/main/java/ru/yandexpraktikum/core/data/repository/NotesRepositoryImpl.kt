@@ -1,12 +1,12 @@
 package ru.yandexpraktikum.core.data.repository
 
-import jakarta.inject.Inject
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import ru.yandexpraktikum.core.data.db.NoteDao
 import ru.yandexpraktikum.core.data.mappers.DataNoteMapper
 import ru.yandexpraktikum.core.domain.model.Note
 import ru.yandexpraktikum.core.domain.repository.NotesRepository
+import javax.inject.Inject
 
 /**
  * TODO("Add documentation")

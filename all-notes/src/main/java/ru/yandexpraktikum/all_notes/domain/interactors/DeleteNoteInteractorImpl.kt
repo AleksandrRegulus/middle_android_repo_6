@@ -1,8 +1,8 @@
 package ru.yandexpraktikum.all_notes.domain.interactors
 
-import jakarta.inject.Inject
 import ru.yandexpraktikum.core.domain.model.Note
 import ru.yandexpraktikum.core.domain.repository.NotesRepository
+import javax.inject.Inject
 
 class DeleteNoteInteractorImpl @Inject constructor(
     private val repository: NotesRepository
